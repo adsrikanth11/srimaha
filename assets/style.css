@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap');
+.heading {
+   font-family: 'Merienda', cursive;
+}
+.welcome {
+   margin-bottom: 0px;
+}
+.srimaha {
+   line-height: 90px;
+   margin-bottom: 0px;
+   list-style: none;
+}
+.soon {
+   font-family: 'Merienda', cursive;
+   font-size: 90px;
+   margin-top: 90px;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+   .soon {
+      font-size: 45px;
+      margin-top: 0px;
+   }
+   .hr_line {
+      margin-top: 0px;
+   }
+}
